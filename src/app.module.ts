@@ -28,11 +28,6 @@ import { GqlConfigService } from './gql-config.service';
       useClass: GqlConfigService,
       
     }),
-    GraphQLModule.forRoot({
-      introspection: true,
-      playground: true
-    }),
-
     AuthModule,
     UsersModule,
     PostsModule,

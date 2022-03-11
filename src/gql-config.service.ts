@@ -19,6 +19,7 @@ export class GqlConfigService implements GqlOptionsFactory {
       // subscription
       installSubscriptionHandlers: true,
       debug: graphqlConfig.debug,
+      introspection: true,
       playground: graphqlConfig.playgroundEnabled,
       context: ({ req }) => ({ req }),
     };
