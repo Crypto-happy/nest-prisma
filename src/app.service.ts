@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'You can go to graphql to use playground!';
+    return 'Welcome!';
   }
 
   // getHelloName(name: string): string {
